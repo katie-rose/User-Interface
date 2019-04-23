@@ -64,3 +64,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	box-sizing: border-box;
+}
+
+/* General Styles */
+html {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header nav {
+	margin: 20px 0;
+	padding: 20px 0;
+}
+
+header nav a {
+	margin-left: 20px;
+	font-size: 18px;
+	color: grey;
+}
+
+.welcome {
+	padding: 20px;
+	overflow: auto;
+}
+
+
+button {
+	padding: 10px 20px 10px 20px;
+	border: 1px solid black;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+.welcome-left {
+	text-align: center;
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	margin-top: 50px;
+}
+
+.logo {
+	 float: right;
+	 padding: 0px;
+}
+
+.circle {
+	width: 35%;
+}
+
+.main-content section {
+	margin: 20px 0;
+}
+
+.top-content {
+border-top: 1px solid black;
+padding-top: 50px;
+}
+
+.top-content .body-content {
+	width: 49.5%;
+	display: inline-block;
+}
+
+.middle-img {
+	padding: 20px;
+}
+
+.bottom-content {
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
+}
+
+.bottom-content .body-content {
+	width: 33%;
+	display: inline-block;
+}
+
+.body-content p {
+	padding-right: 30px;
+}
+
+.contact {
+	padding-top: 30px;
+}
+
+.copyright {
+	margin-top: 30px;
+	text-align: center;
+	padding-bottom: 100px;
+}
